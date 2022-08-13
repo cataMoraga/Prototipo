@@ -31,7 +31,7 @@ public class Login {
 
     @Then("I enter to my account correctly")
     public void enterToAccount() {
-        Assert.assertTrue("El mensaje no es el esperado", login.enterToAccount().contains(text));
+        Assert.assertTrue("El mensaje no es el que se esperaba", login.enterToAccount().contains(text));
     }
 
     @And("the login button is visible")
