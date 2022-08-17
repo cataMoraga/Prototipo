@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">ago. 13, 2022 06:34:48 p.m.</span></a>
+<a href="#"><span class="badge badge-primary">ago. 16, 2022 09:38:35 p.m.</span></a>
 </li>
 </ul>
 </div>
@@ -79,7 +79,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@search</a>
+<a class="dropdown-item" href="#">@WrongLogin</a>
 </ul>
 </li>
 </ul>
@@ -92,7 +92,7 @@
           <div class="test-detail">
             <p class="name">Test Login functionality</p>
             <p class="text-sm">
-              <span>18:34:49</span> / <span>00:00:06:873</span>
+              <span>21:38:35</span> / <span>00:00:11:510</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -101,9 +101,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">Test Login functionality</h5>
-<span class='badge badge-success'>08.13.2022 18:34:49</span>
-<span class='badge badge-danger'>08.13.2022 18:34:56</span>
-<span class='badge badge-default'>00:00:06:873</span>
+<span class='badge badge-success'>08.16.2022 21:38:35</span>
+<span class='badge badge-danger'>08.16.2022 21:38:47</span>
+<span class='badge badge-default'>00:00:11:510</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -115,99 +115,33 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a user I enter my account with my username and password</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>As a user I enter wrong my credentials</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="Steps.Login.navigateToLoginPage()">
-                <span>Given I am on the login page</span>
+              <div class="step pass-bg" title="Steps.NegativeLogin.navigateLoginPage()">
+                <span>Given Im on the login page</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="Steps.Login.enterUsername()">
-                <span>When I enter my username</span>
+              <div class="step pass-bg" title="Steps.NegativeLogin.enterUser()">
+                <span>When I enter my user</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="Steps.Login.enterPassword()">
-                <span>When I enter my password</span>
+              <div class="step pass-bg" title="Steps.NegativeLogin.enterPass()">
+                <span>When I enter wrong my password</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="Steps.Login.clickLoginButton()">
-                <span>And click on the login button</span>
+              <div class="step pass-bg" title="Steps.NegativeLogin.clickLoginBtton()">
+                <span>And click on login button</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="Steps.Login.enterToAccount()">
-                <span>Then I enter to my account correctly</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.Login.logoutButtonIsVisible()">
-                <span>And the login button is visible</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="9"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Test Google search functionality</p>
-            <p class="text-sm">
-              <span>18:34:56</span> / <span>00:00:03:716</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Test Google search functionality</h5>
-<span class='badge badge-success'>08.13.2022 18:34:56</span>
-<span class='badge badge-danger'>08.13.2022 18:34:59</span>
-<span class='badge badge-default'>00:00:03:716</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="10"><span class="badge log pass-bg mr-2">Pass</span>As a user I enter a search criteria in Google</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="Steps.Search.navigateToGoogle()">
-                <span>Given I am on the Google search page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.Search.enterSearchCriteria()">
-                <span>When I enter a search criteria</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.Search.clickSearchButton()">
-                <span>And click on the search button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="Steps.Search.resultsMatchCriteria()">
-                <span>Then The results match the criteria</span>
+              <div class="step pass-bg" title="Steps.NegativeLogin.NegativeMessage()">
+                <span>And I can see an incorrect login message</span>
       <div>
       </div>
               </div>
@@ -230,7 +164,7 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
@@ -239,12 +173,12 @@
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@login</p>
+<p class="name">@WrongLogin</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@login</h4>
+<h4>@WrongLogin</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -258,47 +192,11 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>18:34:49 p.m.</td>
+<td>21:38:35 p.m.</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>As a user I enter my account with my username and password</a>
+<a href="#" class="linked" test-id='1' id='2'>As a user I enter wrong my credentials</a>
 <div class="">
-<span class="badge badge-default">Test Login functionality.As a user I enter my account with my username and password</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
-</span>
-<p class="name">@search</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@search</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>18:34:56 p.m.</td>
-<td>
-<a href="#" class="linked" test-id='9' id='10'>As a user I enter a search criteria in Google</a>
-<div class="">
-<span class="badge badge-default">Test Google search functionality.As a user I enter a search criteria in Google</span>
+<span class="badge badge-default">Test Login functionality.As a user I enter wrong my credentials</span>
 </div>
 </td>
 </tr>
@@ -319,19 +217,19 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>ago. 13, 2022 06:34:48 p.m.</h3>
+<h3>ago. 16, 2022 09:38:35 p.m.</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>ago. 13, 2022 06:35:00 p.m.</h3>
+<h3>ago. 16, 2022 09:38:47 p.m.</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>2</h3>
+<h3>1</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -354,7 +252,7 @@
 </div>
 <div class="card-footer">
 <div><small data-tooltip='100%'>
-<b>2</b> features passed
+<b>1</b> features passed
 </small>
 </div>
 <div>
@@ -376,7 +274,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>2</b> scenarios passed</small></div>
+<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -396,7 +294,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>10</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>5</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -415,7 +313,7 @@
 </div></div>
 <script>
 var timeline = {
-"Test Login functionality":6.873,"Test Google search functionality":3.716
+"Test Login functionality":11.51
 };
 </script>
 <div class="row">
@@ -425,15 +323,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@login</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@search</td>
+<td>@WrongLogin</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -449,18 +339,18 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 2,
+passParent: 1,
 failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 2,
+passChild: 1,
 failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 10,
+passGrandChild: 5,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,

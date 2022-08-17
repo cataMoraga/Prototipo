@@ -8,3 +8,11 @@ Feature: Test Login functionality
     And click on the login button
     Then I enter to my account correctly
     And the login button is visible
+
+  @WrongLogin
+  Scenario: As a user I enter wrong my credentials
+    Given Im on the login page
+    When I enter my user
+    When I enter wrong my password
+    And click on login button
+    And I can see an incorrect login message
